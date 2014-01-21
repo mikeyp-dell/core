@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20140112033926) do
+ActiveRecord::Schema.define(:version => 20140116221101) do
 
   create_table "attribs", :force => true do |t|
     t.integer  "barclamp_id"
@@ -216,7 +216,7 @@ ActiveRecord::Schema.define(:version => 20140112033926) do
     t.string   "status"
     t.text     "runlog",      :default => "",     :null => false
     t.boolean  "available",   :default => true,   :null => false
-    t.integer  "order",       :default => 479520
+    t.integer  "order",       :default => 971198
     t.datetime "created_at",                      :null => false
     t.datetime "updated_at",                      :null => false
   end
