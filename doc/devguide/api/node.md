@@ -34,4 +34,10 @@ Details:
 * name - must be FQDN
 
 
+Hints: 
 
+Uesrs can provide shortcuts to the hint data.  The following hints have been defined as optional parameters for the Node API
+
+* ip - requests a specific network-admin IP 
+* mac - setup up the DHCP resolution for the node using the given MAC address
+* 
